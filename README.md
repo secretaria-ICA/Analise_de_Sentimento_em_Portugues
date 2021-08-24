@@ -18,11 +18,11 @@ A literatura tem uma maior abordagem do assunto Análise de Sentimento no idioma
 
 A base em português utilizada veio do Kaggle (https://www.kaggle.com/faelk8/portuguese-sentiment-analysis). Esta é uma base de tweets que tem 8199 linhas e aborda diversos assuntos.A quantidade de classificações como positivo, neutro, negativo serviu também para análise de comportamento de determinado tipo classificação.
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/Distribuicao.JPG)
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/Distribuicao.JPG)
 
 Com uso de representações por frequência foi possível identificar algumas palavras mais recorrentes que se encaixam em determinados assuntos. 
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/Topicos.JPG) 
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/Topicos.JPG) 
 
 
 ### Análise do dataset e pré-processamento
@@ -33,11 +33,14 @@ A limpeza da base consistiu em retirada de símbolos, urls, hashtags, re-tweets,
 
 Na elaboração da nuvem de palavras foram aplicados os n-grams. Os n-grams são junções de palavras, em algumas situações a junção de 2, 3 palavras trouxe mais sentido a um determinado contexto.
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/Nuvem.JPG)
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/Nuvem.JPG)
 
 Foram avaliados tamanho das palavras e caracteres por quantidade de labels (positivo, negativo e neutro).
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/Classificacao.JPG)
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/Classificacao.JPG)
+
+
+
 
 
 Redes Neurais
@@ -46,11 +49,11 @@ No uso da rede neural CNN-LSTM, os parâmetros foram configurados de forma semel
 
 * Sem embedings
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/RN_Sembeding.JPG)
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/RN_Sembeding.JPG)
 
 * Com embedings
 
-![image](https://github.com/eccunha/analise-sentimento-portugues/blob/main/img/RN_Cembeding.JPG)
+![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/RN_Cembeding.JPG)
 
 ### Conclusão
 
