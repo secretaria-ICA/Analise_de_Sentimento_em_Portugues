@@ -12,7 +12,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo
 
-A literatura tem uma maior abordagem do assunto Análise de Sentimento no idioma em inglês. O desafio deste trabalho consiste em fazer testes em uma base do Twitter no idioma português, usando uma modelagem com e sem o uso de embeddings aplicados as dificuldades relacionadas as acentuações e nuances do próprio idioma. Não existe um resultado definitivo, foram aplicados três códigos com abordagens um pouco diferentes. Cada variação no código como a forma de limpeza da base, uso de tokenização, lemetização e outros filtros, redes neurais, tudo faz parte do teste. A análise da base antes e depois de pré-processamento, uso de deep learning, modelos estatísticos trouxeram uma abrangência de conhecimento dos recursos que a análise de sentimento pode trazer para diversas áreas de interesse.
+A literatura tem uma maior abordagem do assunto Análise de Sentimento no idioma em inglês. O desafio deste trabalho consiste em fazer testes em uma base do Twitter no idioma português, usando uma modelagem com e sem o uso de embeddings aplicados a dificuldades relacionadas às acentuações e nuances do próprio idioma. Não existe um resultado definitivo, foram aplicados três códigos com abordagens um pouco diferentes. Cada variação no código como a forma de limpeza da base, uso de tokenização, lemetização e outros filtros, redes neurais, tudo faz parte do teste. A análise da base antes e depois de pré-processamento, uso de deep learning, modelos estatísticos trouxeram uma abrangência de conhecimento dos recursos que a análise de sentimento pode trazer para diversas áreas de interesse.
 
 ### Base de dados
 
@@ -45,23 +45,23 @@ Foram avaliados tamanho das palavras e caracteres por quantidade de labels (posi
 
 Redes Neurais
 
-No uso da rede neural CNN-LSTM, os parâmetros foram configurados de forma semelhante, diferenciando número de camadas, e a aplicação do uso de embedings.
+No uso da rede neural CNN-LSTM, os parâmetros foram configurados de forma semelhante, diferenciando número de camadas, e a aplicação do uso de embeddings.
 
-* Sem embedings
+* Sem embeddings
 
 ![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/RN_Sembeding.JPG)
 
-* Com embedings
+* Com embeddings
 
 ![image](https://raw.githubusercontent.com/eccunha/tcc-analise-sentimento-portugues/main/img/RN_Cembeding.JPG)
 
 ### Conclusão
 
-O objetivo deste trabalho está em testar diferentes formas de avaliar análise de sentimento através de algoritmos de deep learning e aplicação de modelos estatísticos. Os resultados de acurácia ficaram próximos com o uso da rede neural com e sem embedings em torno 96%, 95%. 
+O objetivo deste trabalho está em testar diferentes formas de avaliar a análise de sentimento através de algoritmos de deep learning e aplicação de modelos estatísticos. Os resultados de acurácia ficaram próximos com o uso da rede neural com e sem embeddings em torno de 95% e 96%.
 
 
 ### Considerações finais 
-Gostaria de agradecer a todos os professores do curso em especial ao professor Leonardo Mendoza pelos ensinamentos e orientação neste trabalho. 
+Gostaria de agradecer a todos os professores do curso, em especial ao professor Leonardo Mendoza pelos ensinamentos e orientação neste trabalho.
 
 
 
