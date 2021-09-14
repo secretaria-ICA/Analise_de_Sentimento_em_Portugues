@@ -1,4 +1,4 @@
-# Análise de sentimento em português
+# Análise de Sentimento em Português
 
 #### Aluna: [Elaine Costa da Cunha](https://github.com/eccunha).
 #### Orientador: [Leonardo Forero Mendoza](https://github.com/leofome8).
